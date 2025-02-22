@@ -1,7 +1,7 @@
+import { config } from "dotenv";
+import { connectDB } from "../lib/db.js";
+import User from "../models/user.model.js";
 
-const { config } = require("dotenv");
-const { User } = require("../models/userModel.js");
-const { connectDB } = require("../lib/db.js");
 config();
 
 const seedUsers = [
